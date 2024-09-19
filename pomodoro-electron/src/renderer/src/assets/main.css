@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* new class grab-area */
+.grab-area {
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
